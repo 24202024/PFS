@@ -21,7 +21,7 @@
 body {
     background-image: url(../img/dvoichnyj_kod_kod_tsifry_147523_3840x2160.jpg);
     display: flexbox;
-    height: 280vh;
+    height: 330vh;
 }
 
 .title-h1-1 {
@@ -190,6 +190,7 @@ body {
     body {
         width: 100%;
         background-repeat: no-repeat;
+        height: max-content;
     }
 
     .sidebar {
