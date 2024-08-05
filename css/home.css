@@ -183,6 +183,7 @@ body {
     body {
         width: 480px;
         background-repeat: no-repeat;
+        height: 250vh;
     }
 }
 
@@ -190,7 +191,7 @@ body {
     body {
         width: 100%;
         background-repeat: no-repeat;
-        height: max-content;
+        height: 250vh;
     }
 
     .sidebar {
