@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(130deg, #2d2722 50%, #2c7744 50%);
+    background-size: 300%;
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowUp span {
+    width: 100%;
+    height: 100%;
+    margin: 40%;
+}
+
+.arrowUp:hover {
+    background-position: 100% 0;
+}
+
+.anim-block {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+
+    width: 90%;
+    height: 500px;
+    background: #2c7744af;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
